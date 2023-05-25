@@ -1,0 +1,52 @@
+.titleStyle2,input {
+  padding :30px;
+  background-color :yellowgreen;
+  color:darkgreen;
+}
+input
+{
+  padding: 15px;
+  color: rgb(39, 3, 73);
+  font-weight: bolder;
+}
+p button
+ {
+  box-shadow: 2px 2px #000;
+  border: 2px solid red;
+  color: darkblue;
+  font-weight: bolder;
+  background-color: rgba(24, 217,143, 0.9);
+ }
+
+ span
+ {
+  padding: 15px;
+  color: red;
+  background-color: yellow;
+ }
+ ul.listeDeMechants::before{
+  content: url("../assets/img/theJocker.jpg");
+  max-width: 50px;
+  height: auto;
+ }
+ ul.listeDeGentils::before{
+  content:url("../assets/img/ironMan.jpg");
+  max-width: 50px;
+  height: auto;
+ }
+ ul img{
+  max-width: 50px;
+  height: auto;
+ }
+/*
+seclecteur::before
+{
+content:"tous cela avant l'element du seclecteur";
+...
+}
+seclecteur::after
+{
+content:"tous cela aaprès l'element du seclecteur";
+...
+}
+*/
